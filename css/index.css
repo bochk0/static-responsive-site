@@ -1,0 +1,102 @@
+/* Importing the required fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+/* #region typography */
+@font-face {
+  font-family: "Gilroy-Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/gilroy-thin.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/gilroy-light.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/gilroy-regular.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/gilroy-medium.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts//gilroy-semibold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/gilroy-bold.ttf");
+}
+
+:root {
+  --font-body: "Inter", sans-serif;
+  --font-heading1: "Gilroy-Semibold", sans-serif;
+  --font-heading2: "Gilroy-Thin", sans-serif;
+  --font-heading3: "Gilroy-Regular", sans-serif;
+  --font-size-body: 16px;
+  --font-size-heading1: 7.5em;
+  --font-size-heading2: 7em;
+  --font-size-heading3: 2.5em;
+  --line-height-body: 1.6;
+  --color-body: #252525;
+  --color-heading: #252525;
+  --color-link: #252525;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-body);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-heading);
+}
+
+h1 {
+  font-family: var(--font-heading1);
+  font-size: var(--font-size-heading1);
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-heading2);
+  font-size: var(--font-size-heading2);
+}
+
+h3 {
+  margin: 0;
+  font-family: var(--font-heading3);
+  font-size: var(--font-size-heading3);
+}
+
+/* #endregion typography */
+
+/* #region generic styles */
+body {
+  background-color: #f5f3ea;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
