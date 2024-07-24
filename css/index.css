@@ -201,3 +201,159 @@ dd {
   padding-right: 0;
   /* line-height: 6re; */
 }
+
+.about-container {
+  padding: 3.75em;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #252525;
+}
+
+.about-desc {
+  font-family: "Gilroy-Light";
+  font-size: 2.5rem;
+  margin-right: 1em;
+}
+
+.about-desc strong {
+  font-family: "Gilroy-Semibold";
+}
+
+.about-title {
+  margin-bottom: 0.75em;
+  padding-right: 1em;
+  color: #fff;
+  font-family: "Gilroy-Medium";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+/* #endregion about */
+
+/* #region socials */
+.social-media-item {
+  padding-right: 1.25em;
+}
+
+.social-media-item svg {
+  height: 50px;
+  width: 50px;
+  vertical-align: bottom;
+}
+
+.social-media-item svg path {
+  fill: #fff;
+}
+/* #endregion socials */
+
+/* #region partners */
+.partner {
+  border-top: 1px solid #252525;
+  border-bottom: 1px solid #252525;
+  padding: 3.75em 0;
+}
+
+.partner-item {
+  padding: 0.9em 1.9em;
+}
+
+.partner-list {
+  justify-content: space-between;
+}
+
+.partner-item {
+  max-width: 13%;
+}
+
+.partner-item img {
+  width: 100%;
+}
+
+/* #endregion partners */
+
+/* #region services */
+
+.services img {
+  width: 50%;
+}
+
+.service-desc {
+  width: 50%;
+  padding: 0 3.625em;
+}
+
+.service-desc h2 {
+  text-align: center;
+}
+
+.service-item {
+  padding-bottom: 2em;
+  padding-top: 2em;
+  border-bottom: 1px solid #252525;
+}
+/* #endregion services */
+
+/* #region selected work */
+
+.work-menu {
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.work-item {
+  width: 30%;
+}
+
+.work-menu img {
+  width: 100%;
+  height: 100%;
+}
+
+.work-title {
+  text-transform: uppercase;
+  font-family: "Gilroy-Bold";
+  font-size: 2.75rem;
+}
+
+.work-tag {
+  display: inline-block;
+  font-family: "Gilroy-Medium";
+  font-size: 1.25rem;
+  padding: 0.5em 1.9em;
+  margin: 0.25em;
+}
+
+.work-cta {
+  margin: 2em 0;
+  text-align: right;
+}
+
+.all-work-cta {
+  text-align: center;
+}
+/* #endregion selected work */
+
+/* #region clients */
+.client-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+}
+
+.client-item {
+  padding: 2em;
+}
+
+.client-item-logo {
+  width: 20%;
+  margin: 1em 0;
+}
+
+.client-item-title {
+  font-family: "Gilroy-Bold";
+  line-height: 1.2;
+}
+
+.client-item-text {
+  margin: 2em 0;
+}
