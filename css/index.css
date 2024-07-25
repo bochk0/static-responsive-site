@@ -195,30 +195,7 @@ dd {
 }
 /* #endregion header */
 
-/* #region about */
-.about {
-  padding: 3em;
-  padding-right: 0;
   /* line-height: 6re; */
-}
-
-.about-container {
-  padding: 3.75em;
-  flex-direction: column;
-  align-items: flex-end;
-  background-color: #252525;
-}
-
-.about-desc {
-  font-family: "Gilroy-Light";
-  font-size: 2.5rem;
-  margin-right: 1em;
-}
-
-.about-desc strong {
-  font-family: "Gilroy-Semibold";
-}
-
 .about-title {
   margin-bottom: 0.75em;
   padding-right: 1em;
@@ -357,3 +334,127 @@ dd {
 .client-item-text {
   margin: 2em 0;
 }
+
+.client-name {
+  font-weight: 600;
+}
+
+.client-avatar {
+  align-items: center;
+}
+
+.client-avatar-image {
+  max-width: 70px;
+  margin-right: 1em;
+}
+
+/* #endregion clients */
+
+/* #region teams */
+.team-list {
+  justify-content: space-between;
+}
+
+.team-item {
+  flex: 1 1 20%;
+  max-width: 20%;
+  flex-direction: column;
+  margin: 2em 1em;
+}
+
+.team-item img {
+  margin: 1em 0;
+}
+
+.team-member-name {
+  font-family: "Gilroy-Bold";
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.team-member-work-title {
+  font-family: "Gilroy-Medium";
+  font-size: 1.25rem;
+}
+
+.team-list .join-cta {
+  flex-basis: 48%;
+  min-width: 48%;
+  padding: 0 3em;
+  justify-content: center;
+}
+
+.join-cta-subtitle {
+  text-transform: uppercase;
+  font-family: "Gilroy-Regular";
+  font-size: 2rem;
+}
+
+.join-cta-btn {
+  align-self: flex-start;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+}
+
+.team .social-media-item {
+  padding-right: 0.75em;
+}
+
+.team .social-media-item svg {
+  height: 30px;
+  width: 30px;
+  vertical-align: bottom;
+}
+
+.team .social-media-item svg path {
+  fill: #000;
+}
+/* #endregion teams */
+
+/* #region contact */
+.contact {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 4.375rem 0;
+}
+
+.contact h2 {
+  flex: 1;
+}
+
+.contact-desc {
+  flex: 1.5;
+  margin-left: 4em;
+}
+
+.contact-text {
+  font-family: "Gilroy-Medium";
+  font-size: 2.25rem;
+}
+
+.contact-cta {
+  margin-top: 1em;
+}
+/* #endregion contact */
+
+/* #region footer */
+.footer .container {
+  padding: 1.5em 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .social-media-item {
+  padding-right: 1em;
+}
+
+.footer .social-media-item svg {
+  height: 30px;
+  width: 30px;
+  vertical-align: bottom;
+}
+
+.footer .social-media-item svg path {
+  fill: #000;
+}
+/* #endregion footer */

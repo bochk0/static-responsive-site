@@ -1,0 +1,80 @@
+/* Document
+   ========================================================================== */
+
+/**
+ * Use a better box model (opinionated).
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/**
+ * Use a more readable tab size (opinionated).
+ */
+
+:root {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+/**
+ * Correct the line height in all browsers.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0; /* Remove margin */
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Remove the margin on nested lists in Chrome, Edge, IE, and Safari.
+ */
+
+ul {
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  list-style: none; /* Remove list style */
+}
+
+/**
+ * Add the correct height in Firefox.
+ */
+
+hr {
+  height: 0;
+}
