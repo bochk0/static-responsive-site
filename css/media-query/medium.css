@@ -1,0 +1,53 @@
+/* #region generic styles */
+body {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 6.5rem;
+}
+
+h2 {
+  font-size: 4.75rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+/* #endregion generic styles */
+
+/* #region header */
+.header-title-desc {
+  font-size: 5rem;
+}
+/* #endregion header */
+
+/* #region about */
+.about {
+  padding: 0;
+  flex-direction: column;
+}
+
+.about-desc {
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+}
+/* #endregion about */
+
+/* #region partners */
+.partner {
+  padding: 1em 0;
+}
+
+.partner-list {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partner-item {
+  max-width: none;
+  margin: 0.25em 0.25em;
+  align-self: flex-start;
+}
+/* #endregion partners */

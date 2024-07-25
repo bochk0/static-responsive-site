@@ -230,18 +230,6 @@ dd {
   padding: 3.75em 0;
 }
 
-.partner-item {
-  padding: 0.9em 1.9em;
-}
-
-.partner-list {
-  justify-content: space-between;
-}
-
-.partner-item {
-  max-width: 13%;
-}
-
 .partner-item img {
   width: 100%;
 }
@@ -252,15 +240,6 @@ dd {
 
 .services img {
   width: 50%;
-}
-
-.service-desc {
-  width: 50%;
-  padding: 0 3.625em;
-}
-
-.service-desc h2 {
-  text-align: center;
 }
 
 .service-item {
