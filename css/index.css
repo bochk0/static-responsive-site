@@ -321,24 +321,6 @@ dd {
   padding: 2em;
 }
 
-.client-item-logo {
-  width: 20%;
-  margin: 1em 0;
-}
-
-.client-item-title {
-  font-family: "Gilroy-Bold";
-  line-height: 1.2;
-}
-
-.client-item-text {
-  margin: 2em 0;
-}
-
-.client-name {
-  font-weight: 600;
-}
-
 .client-avatar {
   align-items: center;
 }
