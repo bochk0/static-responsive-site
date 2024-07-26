@@ -1,0 +1,49 @@
+/* #region generic styles */
+h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  /* #endregion generic styles */
+  
+  /* #region header */
+  .logo {
+    width: 100px;
+    height: 38px;
+  }
+  
+  .header-title-desc {
+    font-size: 2.5rem;
+    font-family: "Gilroy-Light";
+  }
+  /* #endregion header */
+  
+  /* #region about */
+  .about {
+    padding: 0;
+    flex-direction: column;
+  }
+  
+  .about-desc {
+    font-size: 1.75rem;
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+  }
+  /* #endregion about */
+  
+  /* #region partners */
+  .partner {
+    padding: 1em 0;
+  }
+  
+  .partner-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }

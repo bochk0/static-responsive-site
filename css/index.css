@@ -327,24 +327,6 @@ dd {
   margin: 1em 0;
 }
 
-.team-member-name {
-  font-family: "Gilroy-Bold";
-  font-size: 2rem;
-  text-transform: uppercase;
-}
-
-.team-member-work-title {
-  font-family: "Gilroy-Medium";
-  font-size: 1.25rem;
-}
-
-.team-list .join-cta {
-  flex-basis: 48%;
-  min-width: 48%;
-  padding: 0 3em;
-  justify-content: center;
-}
-
 .join-cta-subtitle {
   text-transform: uppercase;
   font-family: "Gilroy-Regular";
