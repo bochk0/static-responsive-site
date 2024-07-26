@@ -300,15 +300,6 @@ dd {
   padding: 2em;
 }
 
-.client-avatar {
-  align-items: center;
-}
-
-.client-avatar-image {
-  max-width: 70px;
-  margin-right: 1em;
-}
-
 /* #endregion clients */
 
 /* #region teams */
